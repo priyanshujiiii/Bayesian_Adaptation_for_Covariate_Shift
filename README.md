@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 # Step 3: Run the experiment
 python main.py --config configs/default.yaml
-
+```
 
 @inproceedings{zhou2022bayesianadaptation,
   title={Training on Test Data with Bayesian Adaptation for Covariate Shift},
