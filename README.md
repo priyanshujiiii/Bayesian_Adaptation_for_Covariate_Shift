@@ -43,6 +43,15 @@ pip install -r requirements.txt
 python main.py --config configs/default.yaml
 ```
 
+## 📚 Citation
+
+If you use this work or build upon it, please cite the original paper:
+
+> Zhou, Aurick, and Sergey Levine.  
+> "**Training on Test Data with Bayesian Adaptation for Covariate Shift**."  
+> *Advances in Neural Information Processing Systems (NeurIPS), 2022.*
+
+```bibtex
 @inproceedings{zhou2022bayesianadaptation,
   title={Training on Test Data with Bayesian Adaptation for Covariate Shift},
   author={Zhou, Aurick and Levine, Sergey},
