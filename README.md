@@ -34,6 +34,6 @@ The paper addresses the challenge of test-time covariate shift in deep learning.
   - Domain adaptation tasks
 
 ### 📦 Framework
-- Implemented in **PyTorch** *(or update if different)*
+- Implemented in **PyTorch**
 
 ### 📁 Project Structure
