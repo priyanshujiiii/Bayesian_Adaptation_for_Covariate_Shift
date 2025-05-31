@@ -10,7 +10,7 @@
 This project reimplements the key ideas from the paper:
 
 > **Training on Test Data with Bayesian Adaptation for Covariate Shift**  
-> [NeurIPS 2022](https://arxiv.org/pdf/2109.12746) — *Aurick Zhou, Sergey Levine*
+> [NeurIPS 2021](https://arxiv.org/pdf/2109.12746) — *Aurick Zhou, Sergey Levine*
 
 The goal is to improve model performance under **distribution shifts** at test time, using a **Bayesian adaptation** framework. Instead of training a model to handle all possible shifts, this approach adapts to the specific test-time data using **unlabeled inputs** via **entropy minimization**.
 
@@ -42,20 +42,6 @@ pip install -r requirements.txt
 # Step 3: Run the experiment
 python main.py --config configs/default.yaml
 ```
-
-## 📚 Citation
-
-If you use this work or build upon it, please cite the original paper:
-
-> Zhou, Aurick, and Sergey Levine.  
-> "**Training on Test Data with Bayesian Adaptation for Covariate Shift**."  
-> *Advances in Neural Information Processing Systems (NeurIPS), 2022.*
-
-```bibtex
-@inproceedings{zhou2022bayesianadaptation,
-  title={Training on Test Data with Bayesian Adaptation for Covariate Shift},
-  author={Zhou, Aurick and Levine, Sergey},
-  booktitle={NeurIPS},
-  year={2022}
 }
+
 
