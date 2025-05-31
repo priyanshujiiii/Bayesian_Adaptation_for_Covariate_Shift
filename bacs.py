@@ -14,7 +14,7 @@ def compute_entropy(logits):
 
 # ----------------------- 2. Single-Model BACS Adaptation -----------------------
 
-def BACS_single_model(model, test_data, entropy_weight, log_q_theta=0.0,
+def BACS(model, test_data, entropy_weight, log_q_theta=0.0,
                       device='cuda', n_adapt_steps=10, lr=1e-3, batch_size=64):
     """
     BACS-style test-time adaptation using a single model.
