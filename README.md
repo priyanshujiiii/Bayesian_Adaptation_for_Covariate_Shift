@@ -25,23 +25,4 @@ The goal is to improve model performance under **distribution shifts** at test t
 
 ---
 
-## 💻 Project Structure
-
----
-
-## 🚀 How to Run
-
-```bash
-# Step 1: Clone the repository
-git clone https://github.com/yourusername/bayesian-test-time-adaptation.git
-cd bayesian-test-time-adaptation
-
-# Step 2: Install requirements
-pip install -r requirements.txt
-
-# Step 3: Run the experiment
-python main.py --config configs/default.yaml
-```
-}
-
 
